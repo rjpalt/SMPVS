@@ -1,0 +1,241 @@
+html {
+    font-size: 24px;
+}
+
+.map_container {
+    display: relative;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#map {
+    width: 100%;
+    height: auto;
+    max-height: 100vh;
+}
+
+#kyoto {
+    display: block;
+    position: absolute;
+    top: 39.2%;
+    left: 53.35%;
+    width: 30px;
+    height: 30px;
+    z-index: 2;
+}
+
+#heian_screen {
+    display: none;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 25%;
+    top: 2%;
+    left: 30%;
+    border: 3px solid #654321;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+#heian_screen img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    5% {
+      opacity: 0.05;
+    }
+    10% {
+      opacity: 0.1;
+    }
+    15% {
+      opacity: 0.15;    
+    }
+    20% {
+      opacity: 0.2;
+    }
+    25% {
+      opacity: 0.25;
+    }
+    30% {
+      opacity: 0.3;
+    }
+    35% {
+     opacity: 0.35;
+    }
+    40% {
+      opacity: 0.4;
+    }
+    45% {
+     opacity: 0.45;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    55% {
+      opacity: 0.55;
+    }
+    60% {
+      opacity: 0.6;
+    }
+    65% {
+     opacity: 0.65;
+    }
+    70% {
+      opacity: 0.7;
+    }
+    75% {
+     opacity: 0.75;
+    }
+    80% {
+      opacity: 0.8;
+    }
+    85% {
+     opacity: 0.85;
+    }
+    90% {
+      opacity: 0.9;
+    }
+    95% {
+     opacity: 0.95;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+#heian_pic {
+    display: none;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 30%;
+    top: 2%;
+    left: 6%;
+    border: 3px solid #654321;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+#heian_pic img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+
+#heian_ukiyo {
+    display: none;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 30%;
+    top: 2%;
+    left: 70%;
+    border: 3px solid #654321;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+#heian_ukiyo img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+
+#ise {
+    display: block;
+    position: absolute;
+    top: 63%;
+    left: 58%;
+    width: 30px;
+    height: 30px;
+    z-index: 2;
+}
+
+#ise1_cont {
+    display: none;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 33%;
+    top: 33%;
+    left: 6%;
+    border: 3px solid #654321;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+#ise2_cont {
+    display: none;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 30%;
+    top: 2%;
+    left: 40%;
+    border: 3px solid #654321;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+#ise3_cont {
+    display: none;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 50%;
+    top: 25%;
+    left: 80%;
+    border: 3px solid #654321;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+#ise1_cont img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+
+#ise2_cont img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+
+#ise3_cont img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+#info_kanban {
+    display: none;
+    position: absolute;
+    text-align: center;
+    top: 77.8%;
+    left: 24.13%;
+    width: 41.5%;
+    height: 14%;
+    background-color: rgba(235, 213, 179, 0.75);
+    color: rgba(172, 50, 53, 1);
+    font-family: "Nanum Brush Script";
+    border: 3px solid black;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
