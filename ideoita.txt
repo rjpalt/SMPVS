@@ -1,0 +1,47 @@
+nav {
+  position: fixed;
+  z-index: 5;
+  left: -17.8em;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-left: 5rem;
+  padding-right: 2rem;
+  background: url("https://content.codecademy.com/courses/freelance-1/unit-6/nav_background.png") center center repeat;
+  font-family: "Proza Libre", serif;
+  font-size: 18px;
+  line-height: 2.2;
+  font-weight: bold;
+  color: #142033;
+  transition: left 500ms ease-in 100ms;
+}
+
+nav:hover {
+  left: 0;
+}
+
+Esimerkki navigaatiomenusta, joka pomppaa vasemmalta esiin.
+
+.definable .definition-container {
+  position: fixed;
+  z-index: 10;
+  top: -100%;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.5rem 4rem 2rem 4rem;
+  background-color: #ffffff;
+  box-shadow: 0 0 64px 0 rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  font-family: "Proza Libre", sans-serif;
+  font-size: 1.5rem;
+  transition: top 500ms linear 100ms,
+              opacity 700ms linear 100ms;
+}
+
+.definable:hover .definition-container {
+  top: 0;
+  opacity: 1;
+}
+
+Ja tässä ylhäältä tippuvasta infokortista

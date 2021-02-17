@@ -37,12 +37,11 @@ html {
 .map_location img {
   width: 1.25rem;
   height: 1.25rem;
-  transition: all 0.5s ease-in 0.2s;
+  transition: all 0.4s ease-out 0.2s;
 }
 
 .map_location img:hover {
-  width: 2rem;
-  height: 2rem;
+  transform: rotate(90deg) scale(2);
 }
 
 .map_location img:focus {
